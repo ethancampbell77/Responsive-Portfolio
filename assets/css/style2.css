@@ -1,0 +1,119 @@
+/* Media Queries */
+
+/* At 980px for Lg Screen Output - i.e. Desktop or Laptop full screen */
+/* --- @media (max-width: 980px) - Nothing added - I tried to add this dimension several ways, but it ended up adding no visible benefit about 768px and created issues at that Md size output so I only applied it to the body (i.e. Lg Conatiner--- */
+
+@media (max-width: 980px) {
+    body {
+        width: 95%;
+    }
+
+
+/* At 768px for Md Screen Output - i.e. Small browswer window or Tablet */
+
+/* Header for all pages  at Medium Output */
+@media (max-width: 768px) {
+    header {
+        position: fixed;
+        height: 15%;
+        width: 100%;
+        margin-top: 5%;
+        top: 0px;
+        z-index: 1;
+    }
+
+/* Containers for context Portfolio & Contact pages @ Medium Size Output */
+    div.box1 {
+        margin-top: 60%;
+        width: 50%;
+    }
+
+/* Containers for context Portfolio & Contact pages @ Medium Size Output */
+    div.box2 {
+        margin-top: 60%;
+        width: 80%;
+    }
+
+/* Containers for context Portfolio & Contact pages @ Medium Size Output */
+    div.box3 {
+        margin-top: 60%;
+        width: 80%;
+    }
+}   
+
+/* At 640px for Sm Screen Output - i.e. Small Tablet or Smartphone */
+
+/* Name Ethan Campbell */
+@media (max-width: 640px) {
+    div.name {
+        position: relative;
+        top: 15%;
+        left: 20%;
+    }
+
+    /* Links */
+    a.about,
+    a.portfolio,
+    a.contact {
+        position: relative;
+        bottom: 30%;
+        right: 17%;
+    }
+
+/* "Portfolio heading ONLY*/
+    h1 {
+        text-align: center;
+        padding: 3%;
+    }
+
+/* Header for all pages at Small Output */
+    header {
+        position: fixed;
+        height: 15%;
+        width: 100%;
+        margin-top: 5%;
+        top: 0px;
+        z-index: 1;
+    }
+
+    /* My Bio Pic */
+    img.mypic {
+        margin-left: 2.5%;
+    }
+
+/* Containers for context Portfolio & Contact pages @ Small Size Output */    
+    div.box1 {
+        margin-top: 40%;
+        width: 60%;
+    }
+
+/* Containers for context Portfolio & Contact pages @ Small Size Output */
+    div.box2 {
+        margin-top: 40%;
+        width: 80%;
+    }
+
+/* Container for Content on Portfolio Page Small Output */
+    div.box3 {
+        margin-top: 40%;
+        width: 80%;
+        padding: 0%;
+    }
+
+/* Portfolio Icon Container at Small Output */
+    div.sm-box {
+        padding: 5%;
+    }
+
+/* Portoflio Icons at Small Output */
+    div.pic1,
+    div.pic2,
+    div.pic3,
+    div.pic4,
+    div.pic5 {
+        width: 80%;
+        float: none;
+        padding: 0%;
+        margin: 0 auto;
+    }
+}
