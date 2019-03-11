@@ -190,8 +190,10 @@ div.pic1,
 div.pic2,
 div.pic3,
 div.pic4,
-div.pic5 {
+div.pic5,
+div.pic6 {
     float: left;
+    margin: auto;
     padding: 10px;
 }
 
